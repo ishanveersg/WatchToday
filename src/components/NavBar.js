@@ -10,8 +10,8 @@ function ColorSchemesExample() {
         <Container>
           <Navbar.Brand> WatchToday</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href=".../browse">Browse</Nav.Link>
-            <Nav.Link href=".../watchlist">Watchlist</Nav.Link>
+            <Nav.Link href="/browse">Browse</Nav.Link>
+            <Nav.Link href="/watchlist">Watchlist</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
