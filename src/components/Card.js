@@ -54,7 +54,7 @@ const Card = ({ movie }) => {
             window.location.reload();
           }}
         >
-          Remove
+          Retirer
         </div>
       )}
     </div>
