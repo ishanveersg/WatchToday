@@ -1,22 +1,7 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 
-import axios from "axios";
 
-const MovieDetails = (props) => {
-
-    const [movieDetails, setMovieDetails] = useState([]);
-
-    var tempID = 557;
-
-    useEffect(() => {
-        axios
-          .get(
-            `https://api.themoviedb.org/3/movie/${tempID}?api_key=2005cf20cc76ab57182960fb7c3b54c1`
-          )
-          .then((res) => setMovieDetails(res.data));
-      }, []);
-
-      console.log(movieDetails);
+const MovieDetails = () => {
 
     return (
         <div className="moviedetails">
